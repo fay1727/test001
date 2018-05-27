@@ -1,0 +1,53 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527406250035" stop="1527406250097">
+  <name>test_haha</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527406250035" status="passed" stop="1527406250050">
+      <name>Test_haha.test01[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5944-MainThread"/>
+        <label name="host" value="DELL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527406250050" status="failed" stop="1527406250097">
+      <name>Test_haha.test01[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;test_haha.Test_haha object at 0x0322D590&gt;, a = 2
+
+    @pytest.mark.parametrize("a",[1,2,3])
+    def test01(self,a):
+&gt;       assert a !=2
+E       assert 2 != 2
+
+scripts\test_haha.py:5: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5944-MainThread"/>
+        <label name="host" value="DELL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527406250097" status="passed" stop="1527406250097">
+      <name>Test_haha.test01[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5944-MainThread"/>
+        <label name="host" value="DELL"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
