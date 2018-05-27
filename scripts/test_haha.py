@@ -8,6 +8,7 @@ class Test_haha:
         allure.attach("描述","测试步骤描述")
         assert a !=2
 
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     @allure.step(title="测试名字2")
     @pytest.mark.parametrize("a", [1, 3, 4])
     def test02(self, a):
